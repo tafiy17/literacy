@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>HTMLテーブル例</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 60%;
+      margin: 20px auto;
+    }
+
+    th, td {
+      border: 1px solid #333;
+      padding: 10px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #4CAF50;
+      color: white;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+
+  <h2 style="text-align:center;">成績表</h2>
+
+  <table>
+    <tr>
+      <th>名前</th>
+      <th>数学</th>
+      <th>英語</th>
+      <th>理科</th>
+    </tr>
+    <tr>
+      <td>田中</td>
+      <td>85</td>
+      <td>78</td>
+      <td>92</td>
+    </tr>
+    <tr>
+      <td>佐藤</td>
+      <td>90</td>
+      <td>88</td>
+      <td>76</td>
+    </tr>
+    <tr>
+      <td>鈴木</td>
+      <td>72</td>
+      <td>95</td>
+      <td>81</td>
+    </tr>
+  </table>
+
+</body>
+</html>
